@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe!</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe!</h1>
+    <div class="opening_choice">
+      <div class="choice overlay_start">
+        <h2>Player 1 Please Choose:</h2>
+        <div class="choice_buttons">
+          <button type="button" class="button-style" id="circle_choice">
+            <img src="circle.png" />
+          </button>
+          <button type="button" class="button-style" id="cross_choice">
+            <img src="cross.png" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="game">
+      <div class="first-row">
+        <button type="button" class="button-style" id="button--0">
+          <img class="hidden btn_img--0" src="cross.png" />
+        </button>
+        <button type="button" class="button-style" id="button--1">
+          <img class="hidden btn_img--1" src="cross.png" />
+        </button>
+        <button type="button" class="button-style" id="button--2">
+          <img class="hidden btn_img--2" src="cross.png" />
+        </button>
+      </div>
+      <div class="second-row">
+        <button type="button" class="button-style" id="button--3">
+          <img class="hidden btn_img--3" src="cross.png" />
+        </button>
+        <button type="button" class="button-style" id="button--4">
+          <img class="hidden btn_img--4" src="cross.png" />
+        </button>
+        <button type="button" class="button-style" id="button--5">
+          <img class="hidden btn_img--5" src="cross.png" />
+        </button>
+      </div>
+      <div class="third-row">
+        <button type="button" class="button-style" id="button--6">
+          <img class="hidden btn_img--6" src="cross.png" />
+        </button>
+        <button type="button" class="button-style" id="button--7">
+          <img class="hidden btn_img--7" src="cross.png" />
+        </button>
+        <button type="button" class="button-style" id="button--8">
+          <img class="hidden btn_img--8" src="cross.png" />
+        </button>
+      </div>
+      <div class="winner-message hidden"><h2>Player 1 Wins!</h2></div>
+      <div class="player-score">
+        <p>Player 1 score: <span class="score--0">0</span></p>
+        <p>Player 2 score: <span class="score--1">0</span></p>
+      </div>
+      <div class="overlay hidden"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
